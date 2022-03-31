@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Friendship Zone</title>
+</head>
+    <link rel="stylesheet"href="homepage.css">
+<body>
+	<img src="IMG_20211223_155803.jpg">
+	
+		<header>
+			<h1>Friendship Zone &#128512;</h1>
+		</header>
+    <h3>Add your details to register</h3>
+    <form>
+        <label for="Name"> Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="Email"> Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="Age "> Age :</label>
+        <input type="number" id="age" name="age"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="M">
+  <label for="M">M</label>
+  <input type="radio" id="F" name="F" value="F">
+  <label for="F">F</label><br><br>
+  <label for="about">About:</label>
+<textarea rows="10" cols="50" ></textarea><br><br>
+<label for="Phone "> Phone no :</label>
+<input type="number" id="phone" name="phone"><br><br>
+<label for="interested in">interested in:</label>
+<input type="radio" id="Friendship" name="Friendship" value="Friendship">
+  <label for="Friendship">Friendship</label>
+  <input type="radio" id="Dating" name="Dating" value="Dating">
+  <label for="Dating">Dating</label><br><br>
+<label for="myfile">Attachment:</label>
+<input type="file" id="myfile" name="myfile"><br><br>
+<input type="submit" onclick="alert('successfully registered')" value="Register" formaction="Registrationconfirmation.html">
+<input type="submit" onclick="alert('successfully registered as admin')" value="Register as admin"  formaction="Registrationconfirmationforadmin.html">
+  </form>
+</body>
+</html>
